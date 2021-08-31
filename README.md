@@ -2,7 +2,7 @@ Sample Android App Using Lottie
 =============================
 
 This is a sample Android App that uses the Lottie Framework(https://github.com/airbnb/lottie-android)
-to load beautiful and light weight animation.
+to load beautiful and light weight animations.
 
 ## Building the Sample App
 
