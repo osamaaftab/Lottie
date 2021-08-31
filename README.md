@@ -1,7 +1,7 @@
 Sample Android App Using Keen
 =============================
 
-This is a sample Android App that uses the [Keen IO Java/Android SDK](https://github.com/keenlabs/KeenClient-Java)
+This is a sample Android App that uses the Lottie Framework(https://github.com/airbnb/lottie-android)
 to capture and upload events to Keen IO.
 
 ## Building the Sample App
