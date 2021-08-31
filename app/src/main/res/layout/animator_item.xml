@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+
+        <variable
+            name="data"
+            type="com.osamaaftab.lottie.domain.model.ResultModel" />
+
+    </data>
+
+    <com.osamaaftab.flow.CircularImageView
+        android:id="@+id/image_view"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:border_color="@android:color/transparent"
+        app:border_width="1dp"
+        app:draw_anticlockwise="false"
+        app:enable_touch="false"
+        app:progress_color="@color/design_default_color_secondary"
+        app:progress_startAngle="-90"
+        app:img_url="@{data.avatarUrl}"
+         />
+</layout>
