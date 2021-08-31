@@ -1,4 +1,4 @@
-Sample Android App Using Keen
+Sample Android App Using Lottie
 =============================
 
 This is a sample Android App that uses the Lottie Framework(https://github.com/airbnb/lottie-android)
